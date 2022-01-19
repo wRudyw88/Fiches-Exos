@@ -1,0 +1,11 @@
+### Read all pizzas
+GET http://localhost:3000/texts/facile
+
+### Login the default admin & define a request variable
+POST http://localhost:3000/texts
+Content-Type: application/json
+
+{
+    "content":"je veux voir ca",
+    "level":"facile"
+}
